@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ball {
+    position: absolute;
+}
+
+button {
+    font-family: sans-serif;
+    outline: none;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    font-size: 22px;
+    padding: 10px 50px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 30px;
+}
