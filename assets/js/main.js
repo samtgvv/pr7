@@ -1,6 +1,6 @@
 'use strict'
 
-// зд 1
+// Задание 1
 
 const hideButton = document.getElementById('hideButton');
 
@@ -8,7 +8,7 @@ hideButton.addEventListener('click', () => {
   hideButton.style.display = 'none';
 });
 
-// зд 2
+// Задание 2
 
 const hidetext = document.getElementById('hidetext');
 const texthide = document.getElementById('texthide');
@@ -17,7 +17,7 @@ hidetext.addEventListener('click', () => {
   texthide.style.display = 'none';
 });
 
-// зд 3
+// Задание 3
 
 const HideText = document.querySelector('.HideText');
 const Texthide = document.querySelector('.Texthide');
@@ -28,7 +28,7 @@ HideText.addEventListener('click', function() {
   else Texthide.style.display = 'none';
 });
 
-// зд4
+// Задание 4
 
 document.addEventListener('click', (event) => {
   ball.style.left = `${event.clientX - 25}px`;
